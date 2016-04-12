@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DWD Week1</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:700,400,100' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/2.10.0/d3.v2.min.js "></script>
+    <script src="data.js"></script>
+  </head>
+
+  <body>
+    <h1 class="pageHeading"> What happens in the Shop.. </h1>
+    <h3 class="pageSubHeading">March 4- March 11</h3>
+    <section class="visualtisations">
+      <svg id="visualisation" ></svg>
+      <div class="allIndexButtons"></div>
+    </section>
+    <!--
+    <button class="pastEnergyDataButton">Past Data</button>
+  -->
+
+    <section class="perEquipmentNumber">
+      <div class="equipmentDetails" "equipmentDetailsHeadings">
+        <div class="equipmentName equipmentDetailsHeadings">
+          Equipment
+        </div>
+        <div class="equipmentEnergy equipmentDetailsHeadings">
+          Total Energy(kWh)
+        </div>
+        <div class="equipmentEnergy equipmentDetailsHeadings">
+          Total Energy - Peak (kWh)
+        </div>
+        <div class="equipmentEnergy equipmentDetailsHeadings">
+          Total Energy - Off Peak (kWh)
+        </div>
+        <div class="equipmentEnergy equipmentDetailsHeadings">
+          Avg. Power(W)
+        </div>
+
+      </div>
+    </section>
+
+    <section class="totalEnergyNumbers">
+      <div class="pieChartCover">
+        <div id="chartPeakData" class="pieChart"></div>
+        <div class="pieChartNumbers" id="numbersPeakData"></div>
+      </div>
+      <div class="pieChartCover">
+        <div id="chartOffPeakData" class="pieChart"></div>
+        <div class="pieChartNumbers" id="numbersOffPeakData"></div>
+      </div>
+    </section>
+
+
+
+    <h3 class="pageSubHeading">If you leave a bulb on for an hour, it consumes 0.014kWh - and 2.352kWh if you left it on all week</h3>
+    <h3 class="pageSubHeading" id="noOfBulbs"></h3>
+
+
+    <section class="numberOfBulbsInfograph">
+
+    </section>
+
+    <!-- <h3 class="pageSubHeading">But how much energy does ITP use?</h3>
+
+    <section class="ITPNumbers">
+      <img src="/assets/ITP.png"></img>
+
+    </section>
+
+ -->
+
+
+    <h1 class="pageHeading"> .. stays in the shop </h1>
+  </body>
+</html>
